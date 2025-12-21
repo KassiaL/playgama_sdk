@@ -23,11 +23,8 @@
 				}
 			}
 
-			// Использование
 			const loader = new SDKLoader();
 			loader.load().then(() => {
-				// console.log('SDK ready to use');
-
 				window.is_bridge_inited = false;
 				bridge
 					.initialize()
